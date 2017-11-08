@@ -321,14 +321,13 @@ call s:HL('lCursor', s:none, s:none, s:inverse)
 " }}}
 " Syntax Highlighting: {{{
 
-call s:HL('Special', s:red0)
+call s:HL('Special', s:blue0)
 
 call s:HL('Comment', s:fg0, s:none, s:italic)
 call s:HL('Todo', s:yellow0, s:bg1)
 call s:HL('Error', s:red0, s:bg1, s:bold)
 
 " Generic Statement
-" Bold?
 call s:HL('Statement', s:green0, s:none, s:bold)
 call s:HL('Conditional', s:magenta0)
 call s:HL('Repeat', s:yellow0)
